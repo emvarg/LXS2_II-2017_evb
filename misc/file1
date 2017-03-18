@@ -1,0 +1,42 @@
+eno1      Link encap:Ethernet  direcciónHW 34:17:eb:c6:a6:b0  
+          Direc. inet:10.124.18.29  Difus.:10.124.18.255  Másc:255.255.255.0
+          Dirección inet6: fe80::3b7b:f834:763c:e326/64 Alcance:Enlace
+          ACTIVO DIFUSIÓN FUNCIONANDO MULTICAST  MTU:1500  Métrica:1
+          Paquetes RX:98159 errores:0 perdidos:0 overruns:0 frame:0
+          Paquetes TX:34631 errores:0 perdidos:0 overruns:0 carrier:0
+          colisiones:0 long.colaTX:1000 
+          Bytes RX:64731240 (64.7 MB)  TX bytes:5563141 (5.5 MB)
+          Interrupción:20 Memoria:f7c00000-f7c20000 
+
+lo        Link encap:Bucle local  
+          Direc. inet:127.0.0.1  Másc:255.0.0.0
+          Dirección inet6: ::1/128 Alcance:Anfitrión
+          ACTIVO BUCLE FUNCIONANDO  MTU:65536  Métrica:1
+          Paquetes RX:2806 errores:0 perdidos:0 overruns:0 frame:0
+          Paquetes TX:2806 errores:0 perdidos:0 overruns:0 carrier:0
+          colisiones:0 long.colaTX:1 
+          Bytes RX:299504 (299.5 KB)  TX bytes:299504 (299.5 KB)
+
+virbr0    Link encap:Ethernet  direcciónHW 52:54:00:12:d4:bc  
+          Direc. inet:192.168.122.1  Difus.:192.168.122.255  Másc:255.255.255.0
+          ACTIVO DIFUSIÓN MULTICAST  MTU:1500  Métrica:1
+          Paquetes RX:0 errores:0 perdidos:0 overruns:0 frame:0
+          Paquetes TX:0 errores:0 perdidos:0 overruns:0 carrier:0
+          colisiones:0 long.colaTX:1000 
+          Bytes RX:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+virbr1    Link encap:Ethernet  direcciónHW 52:54:00:e8:db:dc  
+          ACTIVO DIFUSIÓN MULTICAST  MTU:1500  Métrica:1
+          Paquetes RX:0 errores:0 perdidos:0 overruns:0 frame:0
+          Paquetes TX:0 errores:0 perdidos:0 overruns:0 carrier:0
+          colisiones:0 long.colaTX:1000 
+          Bytes RX:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+virbr2    Link encap:Ethernet  direcciónHW 00:00:00:00:00:00  
+          Direc. inet:192.168.222.1  Difus.:192.168.222.255  Másc:255.255.255.0
+          ACTIVO DIFUSIÓN MULTICAST  MTU:1500  Métrica:1
+          Paquetes RX:0 errores:0 perdidos:0 overruns:0 frame:0
+          Paquetes TX:0 errores:0 perdidos:0 overruns:0 carrier:0
+          colisiones:0 long.colaTX:1000 
+          Bytes RX:0 (0.0 B)  TX bytes:0 (0.0 B)
+
