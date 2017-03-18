@@ -40,3 +40,13 @@ virbr2    Link encap:Ethernet  direcciónHW 00:00:00:00:00:00
           colisiones:0 long.colaTX:1000 
           Bytes RX:0 (0.0 B)  TX bytes:0 (0.0 B)
 
+eno1      Link encap:Ethernet  direcciónHW 34:17:eb:c6:a6:b0  
+          Direc. inet:10.124.18.29  Difus.:10.124.18.255  Másc:255.255.255.0
+          Dirección inet6: fe80::3b7b:f834:763c:e326/64 Alcance:Enlace
+          ACTIVO DIFUSIÓN FUNCIONANDO MULTICAST  MTU:1500  Métrica:1
+          Paquetes RX:218682 errores:0 perdidos:0 overruns:0 frame:0
+          Paquetes TX:72458 errores:0 perdidos:0 overruns:0 carrier:0
+          colisiones:0 long.colaTX:1000 
+          Bytes RX:101660664 (101.6 MB)  TX bytes:11959058 (11.9 MB)
+          Interrupción:20 Memoria:f7c00000-f7c20000 
+
