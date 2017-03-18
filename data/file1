@@ -1,0 +1,10 @@
+[    0.000000] microcode: CPU0 microcode updated early to revision 0x1e, date = 2015-08-13
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 4.4.0-66-generic (buildd@lgw01-28) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #87-Ubuntu SMP Fri Mar 3 15:29:05 UTC 2017 (Ubuntu 4.4.0-66.87-generic 4.4.44)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-66-generic root=UUID=c0f40920-ae7a-4567-b68c-a1c18c6bafe5 ro quiet splash vt.handoff=7
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
