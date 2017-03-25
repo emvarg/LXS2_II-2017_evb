@@ -1,0 +1,764 @@
+    1  clear
+    2  history 
+    3  clear
+    4  whoami
+    5  sudo su -
+    6  sudo apt install bzip2 -y
+    7  which bzip gzip tar
+    8  which bzip2 gzip tar
+    9  passwd profesor
+   10  sudo -s
+   11  dig
+   12  ping www.google.com
+   13  dig
+   14  sudo su -
+   15  P6p3.aa!
+   16  df -lh 
+   17  dmesg 
+   18  sudo fdisk -l
+   19  sudo su -
+   20  sync
+   21  bc
+   22  df -lh 
+   23  mkdir LLAVES
+   24  cd LLAVES/
+   25  ls
+   26  ls -l
+   27  mkdir roja
+   28  cd roja/
+   29  ls
+   30  sudo apt-get install unetbootin
+   31  /home/soporte/Descargas/ubuntu-16.04.2-desktop-amd64.iso
+   32  htop
+   33  top
+   34  dmesg 
+   35  echo '/home/soporte/Descargas/ubuntu-16.04.2-desktop-amd64.iso' > docs
+   36  vim docs 
+   37  iostat
+   38  top
+   39  df -lh 
+   40  fdisk -l
+   41  sudo fdisk -l
+   42  sudo fsck.vfat -v -a -w /dev/sdac1
+   43  sudo fsck.vfat -v -a -w /dev/sdc1
+   44  cd .cache/
+   45  ls
+   46  cd google-chrome/
+   47  ls
+   48  cd Default/
+   49  ls
+   50  tree
+   51  ls Cache/
+   52  cd ..
+   53  ls
+   54  cd ..
+   55  ls
+   56  sudo rm -r google-chrome/
+   57  cd ..
+   58  ls
+   59  find . | grep google 
+   60  cd .cache/
+   61  ks
+   62  los
+   63  ls
+   64  sudo rm -r google-chrome/
+   65  ld
+   66  cd .
+   67  cd ..
+   68  ls
+   69  find . | grep google 
+   70  sudo rm -r .cache/google-chrome/
+   71  find . | grep google 
+   72  sudo su -
+   73  sudo rm -rf .cache/google-chrome/
+   74  find . | grep google 
+   75  sudo su -
+   76  sudo rm -rf .config/google-chrome/
+   77  find . | grep goog
+   78  ls
+   79  cd Escritorio/
+   80  ls
+   81  cd /home/
+   82  ls
+   83  cd profesor/
+   84  ls
+   85  cd 
+   86  vim mierda
+   87  cd /var/www/
+   88  ls
+   89  ps aux | grep www
+   90  ls
+   91  ls -al
+   92  cat /etc/apache2/sites-available/000-default.conf 
+   93  cd html/
+   94  ls
+   95  ls -al
+   96  cp ~/deb-00.ova .
+   97  sudo cp ~/deb-00.ova .
+   98  chown www-data:www-data deb-00.ova 
+   99  sudo chown www-data:www-data deb-00.ova 
+  100  ls -la
+  101  vim virt-inst.sh
+  102  sudo vim virt-inst.sh
+  103  sudo chown www-data:www-data virt-inst.sh 
+  104  ls -l
+  105  cd 
+  106  ls ../es
+  107  su - estudiante
+  108  su estudiante -
+  109  exit 
+  110  cd /var/www/
+  111  cd html/
+  112  ls
+  113  sudo vim virt-inst.sh 
+  114  df -lh 
+  115  ip -4 addr 
+  116  ps aux | grep ssh
+  117  sudo apt-get update 
+  118  sudo apt-get upgrade
+  119  ip -4 addr 
+  120  cd /var/www/html/
+  121  ll
+  122  vim virt-inst.sh 
+  123  exit
+  124  echo $VAR
+  125  set 
+  126  set  | less 
+  127  env | less 
+  128  export -p | less 
+  129  ls
+  130  VAR=1
+  131  export VAR
+  132  var_min=2
+  133  echo $VAR
+  134  unset VAR
+  135  echo $VAR
+  136  VAR=1
+  137  VAR=22
+  138  echo $VAR
+  139  VAR=' '
+  140  echo $VAR
+  141  unset 22
+  142  env
+  143  echo $VAR
+  144  env VAR=22 bash
+  145  echo $VAR
+  146  date 
+  147  env TZ=EST date 
+  148  echo $PATH
+  149  ls
+  150  mkdir test
+  151  PATH=/home/soporte/test:$PATH
+  152  echo $PATH
+  153  wich ls
+  154  which ls
+  155  cp /bin/ls test/
+  156  mv test/ls test/ls-emma
+  157  ls-emma
+  158  history 
+  159  echo $VAR2
+  160  sudo apt update && sudo apt  upgrade
+  161  cat /var/www/html/virt-inst.sh 
+  162  ls /etc/skel/
+  163  ls -la /etc/skel/
+  164  cd Documentos/
+  165  ls
+  166  cd LXS2_II-2017_evb/
+  167  ls
+  168  cd src/
+  169  ls
+  170  ls
+  171  ./monitor.sh 
+  172  cd 
+  173  ls
+  174  cd test/
+  175  LS
+  176  ls
+  177  rm ls-emma 
+  178  ls
+  179  git clone https://github.com/emvarg/LXS2_II-2017_evb.git repo-del-profe
+  180  tree
+  181  cd 
+  182  cd Documentos/
+  183  mkdir test2
+  184  cd test2
+  185  ls
+  186  mkdir src
+  187  ls
+  188  cd src/
+  189  ls
+  190  cp ~/test/repo-del-profe/src/monitor.sh .
+  191  cd /tmp/
+  192  git clone https://github.com/emvarg/LXS2_II-2017_evb.git repo-del-profe
+  193  ls
+  194  git clone https://github.com/emvarg/LXS2_II-2017_evb.git
+  195  cd Dow
+  196  cd Descargas/
+  197  ls
+  198  vim ficheroExcel.csv
+  199  type git
+  200  cd 
+  201  cd Documentos/
+  202  ls
+  203  mkdir LXS2_II-2017_evb
+  204  ls
+  205  cd LXS2_II-2017_evb/
+  206  ls
+  207  git init
+  208  tree 
+  209  sudo apt-get install tree
+  210  tree
+  211  tree -a
+  212  ls -la
+  213  git config --global user.name "Emmanuel Vargas B"
+  214  git config --global user.email "emvargcr@gmail.com"
+  215  vim ~/.gitconfig 
+  216  ls-la
+  217  ls -la
+  218  vim .gitignore
+  219  mkdir src
+  220  mkdir misc
+  221  mkdir logs
+  222  mkdir data
+  223  tree
+  224  tree -a
+  225  touch logs/file1
+  226  touch {misc,src,data}/file1
+  227  tree
+  228  git status
+  229  git add -a
+  230  git add -all
+  231  git add --all
+  232  ls
+  233  git status 
+  234  git commit -m "Inicio de la estructura de mi repo"
+  235  ls
+  236  git status
+  237  touch data/file2
+  238  git status
+  239  ls
+  240  last > misc/ultimo-acceso.log
+  241  head dmesg >> data/file1
+  242  ls
+  243  ls data/
+  244  dmesg | head  >> data/file1
+  245  history 
+  246  git status 
+  247  git add data/file1 
+  248  git add data/file2 
+  249  git status 
+  250  git commit -m "Dos nuevos archivos"
+  251  git log
+  252  git remote add origin https://github.com/emvarg/LXS2_II-2017_evb.git
+  253  git remote -v
+  254  git remote add don-mario https://github.com/marioqacr/LXS2_II-2017_mqa.git
+  255  git remote -v
+  256  git push -u origin master
+  257  hs
+  258  history 
+  259  ls
+  260  git log
+  261  git pull origin master
+  262  ls
+  263  mkdir Academia-UCR
+  264  cd Academia-UCR/
+  265  ls
+  266  git clone https://github.com/emvarg/LXS2_II-2017_evb.git mi-repo-remoto
+  267  ls
+  268  cd mi-repo-remoto/
+  269  ls
+  270  tree
+  271  git log
+  272  ls
+  273  ls -l
+  274  ifconfig >> misc/file1 
+  275  git status 
+  276  git add misc/file1 
+  277  git commit -m "Modificacion desde la casa" 
+  278  git status 
+  279  git push -u origin master
+  280  history 
+  281  cd 
+  282  var=casa
+  283  var2=casa
+  284  test var2 = var
+  285  echo $?
+  286  test var2=var 
+  287  echo $?
+  288  echo $?  && ls -l
+  289  test var2=var && ls -l
+  290  test var2 = var && ls -l
+  291  var=perro
+  292  test var2=var && ls -l
+  293  echo $VAR2
+  294  echo $var2
+  295  echo $var
+  296  test $var2=$var && ls -l
+  297  test var2=var && ls -l
+  298  test var2 = var && ls -l
+  299  var=casa
+  300  test var2 = var && ls -l
+  301  test var2=var && ls -l
+  302  test var2=var
+  303  echo $?
+  304  echo $var2
+  305  echo $var
+  306  var=perro
+  307  test var2=var
+  308  echo $?
+  309  test $var2=$var
+  310  echo $?
+  311  echo $var
+  312  echo $var2
+  313  test "$var2"="$var"
+  314  echo $?
+  315  test "$var2" = "$var"
+  316  echo $?
+  317  test casa = casa
+  318  echo $?
+  319  test casa = perro
+  320  echo $?
+  321  test "var2" = "var"
+  322  echo $?
+  323  echo $var2
+  324  echo $var
+  325  var=casa
+  326  "var2" = "var"
+  327  echo $?
+  328  test $var2 = $var
+  329  echo $?
+  330  var=perro
+  331  test $var2 = $var
+  332  echo $?
+  333  history 
+  334  test $var2 = $var && ls -l
+  335  echo $var
+  336  var=casa
+  337  test $var2 = $var && ls -l
+  338  [ $var2 = $var ] && ls -l
+  339  if [ $USER = 'soporte' ]; then      echo 'El usuario puede continuar'; fi
+  340  if [ $USER = 'soport' ]; then      echo 'El usuario puede continuar'; fi
+  341  rm /tmp/reporte 
+  342  ./monitor.sh 
+  343  cat /tmp/repo
+  344  cat /tmp/reporte 
+  345  ./monitor.sh 
+  346  git status
+  347  git diff monitor.sh
+  348  git add monitor.sh
+  349  git commit
+  350  git log
+  351  git push origin master
+  352  git config --global core.editor "vim"
+  353  cat ~/.gitconfig 
+  354  locate alternatives
+  355  ls /etc/alternatives/
+  356  ls /etc/alternatives/editor
+  357  ls -l /etc/alternatives/editor
+  358  sudo update-alternatives --config  editor
+  359  ls
+  360  ll
+  361  cat ../.gitignore 
+  362  ./monitor.sh 
+  363  git status
+  364  git diff
+  365  git add monitor.sh 
+  366  git commit -m "Mejora del script de respaldo"
+  367  git push origin master
+  368  cd 
+  369  cd Documentos/
+  370  ls
+  371  ls -l
+  372  cd \
+  373  cd 
+  374  ls
+  375  cd Documentos/
+  376  ls
+  377  ls -l
+  378  cd 
+  379  cd Descargas/
+  380  ls
+  381  ls -l
+  382  cd 
+  383  cd Documentos/LXS2_II-2017_evb/
+  384  ls
+  385  cd .git/
+  386  ls
+  387  cat config 
+  388  cat ~/.gitconfig 
+  389  git config  core.editor "vim"
+  390  git config  user.name "Emmanuel Vargas B"
+  391  cat config 
+  392  git config  user.name "Emma"
+  393  cat config 
+  394  git status
+  395  cd ..
+  396  git status 
+  397  ls
+  398  cd misc/
+  399  s
+  400  ls
+  401  ifconfig | head >> file1 
+  402  git status 
+  403  git add file1 
+  404  git commit -m "Modificacion a file1 en misc"
+  405  git log 
+  406  cat ~/.gitconfig 
+  407  git config  core.editor "nano
+  408  git push origin master 
+  409  cd /tmp/
+  410  ls
+  411  rm -rf LXS2_II-2017_evb/
+  412  git clone https://github.com/emvarg/LXS2_II-2017_evb.git mi-repo-remoto
+  413  cd mi-repo-remoto/
+  414  ls
+  415  cd .git/
+  416  ls
+  417  cat config 
+  418  cat ~/.gitconfig 
+  419  ls
+  420  sh
+  421  cd Documentos/
+  422  ls
+  423  cd LXS2_II-2017_evb/
+  424  ls
+  425  git push origin master 
+  426  lsb_release -r
+  427  echo $PATH
+  428  sh
+  429  echo $PS1
+  430  ps1=$PS1
+  431  echo $ps1
+  432  PS1="commandos> "
+  433  ls
+  434  PS1=$ps1
+  435  echo $PS1
+  436  cd Descargas/
+  437  cd /etc
+  438  sh
+  439  ls
+  440  cd 
+  441  cd Documentos/
+  442  ls
+  443  cd LXS2_II-2017_evb/
+  444  ls
+  445  mkdir history
+  446  alias STm='date +%Y%m%d'
+  447  STm
+  448  var_time=`Stm`
+  449  var_time=`STm`
+  450  history > history/history-$var_time
+  451  tree
+  452  history > history/history-`STm`.log
+  453  alias STm='date +%Y%m%d_%H:%M'
+  454  STm
+  455  history > history/history-`STm`.log
+  456  tree
+  457  history
+  458  alias -p
+  459  alias STm=`date +%Y%m%d_%H:%M`
+  460  alias -p
+  461  STm
+  462  20170318_11:15
+  463  alias STm='date +%Y%m%d_%H:%M' 
+  464  ls -l
+  465  /bin/ls
+  466  /bin/ls -l
+  467  \ls
+  468  ls
+  469  resportes () { cd /usr/share/doc; echo "Reporte: `date +%Y%m%d`"  > /tmp/reporte; date >> /tmp/reporte; pwd >> /tmp/reporte; du -sh . >> /tmp/reporte; }
+  470  reportes
+  471  resportes
+  472  reportes () { cd /usr/share/doc; echo "Reporte: `date +%Y%m%d`"  > /tmp/reporte; date >> /tmp/reporte; pwd >> /tmp/reporte; du -sh . >> /tmp/reporte; }
+  473  cat /tmp/reporte 
+  474  history 
+  475  cd 
+  476  vim .bashrc 
+  477  echo $VAR2
+  478  ,.
+  479  . .bashrc 
+  480  echo $VAR2
+  481  source .bashrc 
+  482  rm /tmp/reporte 
+  483  cd /usr/share/doc; echo "Reporte: `date +%Y%m%d`"  > /tmp/reporte; date >> /tmp/reporte; pwd >> /tmp/reporte; du -sh . >> /tmp/reporte;
+  484  cat /tmp/reporte 
+  485  cd 
+  486  ls
+  487  cd Documentos/LXS2_II-2017_evb/
+  488  ls
+  489  tree
+  490  cd src/
+  491  ls
+  492  ls -la
+  493  echo '#!/bin/bash' > monitor.sh
+  494  cat monitor.sh
+  495  history 
+  496  echo 'cd /usr/share/doc' >>  monitor.sh
+  497  echo 'echo Reporte:' >>  monitor.sh
+  498  echo 'echo Reporte: >> /tmp/reporte' >>  monitor.sh
+  499  echo 'date >> /tmp/reporte' >> monitor.sh
+  500  echo 'dat >> /tmp/reporte' >> monitor.sh
+  501  echo 'pwd >> /tmp/reporte' >> monitor.sh
+  502  echo 'du -sh .  >> /tmp/reporte' >> monitor.sh
+  503  rm /tmp/reporte 
+  504  vim monitor.sh 
+  505  chmod u+x monitor.sh 
+  506  ls -l
+  507  ls /tmp/
+  508  ./monitor.sh 
+  509  ls /tmo
+  510  ls /tmp
+  511  cat /tmp/reporte 
+  512  cat monitor.sh 
+  513  vim monitor.sh 
+  514  git status 
+  515  git add monitor.sh 
+  516  git status 
+  517  git commit -m "Creacion del script de monitoreo"
+  518  git push origin master 
+  519  ls
+  520  cat monitor.sh 
+  521  vim monitor.sh 
+  522  ls
+  523  vim parametros.sh
+  524  ls
+  525  vim parametros.sh 
+  526  git status
+  527  git add parametros.sh 
+  528  git commit -m  "Version dos del if"
+  529  vim parametros.sh 
+  530  git status 
+  531  git add parametros.sh 
+  532  git commit -m "Revision de seguridad para correr un script"
+  533  git push origin master
+  534  cd ..
+  535  ls
+  536  ls -la
+  537  cd history/
+  538  ls
+  539  ls -l 
+  540  rm *
+  541  git status
+  542  lsb_release 
+  543  lsb_release -a
+  544  lsb_release -r | awk '{print $2}'
+  545  lsb_release -a | awk '{print $2}'
+  546  lsb_release -r | awk '{print $2}'
+  547  chmod u+x parametros.sh 
+  548  ls -l
+  549  ./parametros.sh 
+  550  ./parametros.sh j perror mama
+  551  git add parametros.sh 
+  552  git commit -m "Inicio del script de parametros"
+  553  git push origin master
+  554  ./parametros.sh perro sdfgdf dgfhfdg
+  555  ./parametros.sh perr sdfgdf dgfhfdg
+  556  history 
+  557  cd Documentos/LXS2_II-2017_evb/
+  558  cd history/
+  559  ls
+  560  pwd
+  561  history > history-clase1
+  562  ls
+  563  cd ..
+  564  cd history/
+  565  ls
+  566  mv history-clase1 history-clase1.txt
+  567  git status 
+  568  git add history-clase1.txt 
+  569  git status 
+  570  git commit -m "History de la clase 1"
+  571  git push origin master
+  572  history 
+  573  history | grep -E 'ls'
+  574  history | grep -E ' ls '
+  575  vim /etc/hosts
+  576  ls
+  577  #echo "This is the body of the email" | mail -s "This is the subject line" user@example.com
+  578  P6p3.aas
+  579  su - soporte
+  580  id
+  581  sudo apt install exim4
+  582  sudo vim /etc/exim4/update-exim4.conf.conf 
+  583  sudo dpkg-reconfigure exim4-config 
+  584  ls -l /etc/exim4/
+  585  tree /etc/exim4/conf.d/
+  586  sudo vim /etc/exim4/update-exim4.conf.conf 
+  587  sudo update-exim4.conf
+  588  sudo vim /etc/exim4/update-exim4.conf.conf 
+  589  history 
+  590  echo "Prueba de correo" | mail -s "Asunto del correo" uk3xd8@gmail.com
+  591  less /var/log/exim4/mainlog 
+  592  cat /var/log/exim4/mainlog 
+  593  ssh uk@lolo.emate.hcr
+  594  ssh uk@lolo.emate.ucr.ac.cr
+  595  cd Documentos/
+  596  ls
+  597  cd LXS2_II-2017_evb/
+  598  ls
+  599  cd src/
+  600  ;s
+  601  ls
+  602  vim export_clients.sh
+  603  cd /tmp/
+  604  ls
+  605  mkdir change-case
+  606  cd change-case/
+  607  ls
+  608  touch FILE
+  609  touch File1
+  610  touch fIlE2
+  611  touch fIle3
+  612  ls
+  613  cd 
+  614  find /tmp/change-case/
+  615  cd Documentos/
+  616  ls
+  617  cd LXS2_II-2017_evb/
+  618  ls
+  619  cd src/
+  620  ls
+  621  vim chage-case.sh
+  622  vim migracion.sh
+  623  ls
+  624  vim get-gif.sh 
+  625  cd Documentos/
+  626  cd LXS2_II-2017_evb/
+  627  ls
+  628  cd src/
+  629  ls
+  630  ls -l
+  631  chmod 750 modcase.sh 
+  632  ls -l
+  633  ./modcase.sh /tmp/change-case/
+  634  ls -l /tmp/change-case/
+  635  ./modcase.sh /tmp/change-case/
+  636  ls -l /tmp/change-case/
+  637  ./modcase.sh /tmp/change-case/
+  638  find /tmp/change-case/
+  639  find /tmp/change-case/ -type f
+  640  find /tmp/change-case/ -type d
+  641  find /tmp/change-case/ -type f
+  642  ./modcase.sh /tmp/change-case/
+  643  pushd  /tmp/change-case/
+  644  mv file File
+  645  ls
+  646  mv file1 FILE1
+  647  mv file2 FIlE2
+  648  mv file3 FIle2
+  649  ls
+  650  popd
+  651  ./modcase.sh /tmp/change-case/
+  652  for i in casa perro gato; do echo "Estos son los animales $i"; done
+  653  for i in mono perro gato; do echo "Estos son los animales $i"; done
+  654  cd sr
+  655  cd /srv/
+  656  cd 
+  657  cd Documentos/
+  658  ls
+  659  cd LXS2_II-2017_evb/
+  660  ls
+  661  cd src/
+  662  ls
+  663  vim migra.sh
+  664  mv migra.sh modcase.sh
+  665  vim modcase.sh 
+  666  ls
+  667  git status 
+  668  git add modcase.sh
+  669  gls
+  670  ls
+  671  cat parametros.sh 
+  672  vim ar
+  673  vim parametros.sh 
+  674  ./parametros.sh ksk ksk
+  675  vim parametros.sh 
+  676  ./parametros.sh ksk ksk
+  677  vim parametros.sh 
+  678  ./parametros.sh ksk ksk hedhdj
+  679  vim parametros.sh 
+  680  ssh uk@lolo.emate.ucr.ac.cr
+  681  echo hola | rev
+  682  cd /tmp/
+  683  ls
+  684  cd algo/
+  685  ls
+  686  mkdir folder1/folder{2,3,4}/arch{2,3}
+  687  mkdir -p folder1/folder{2,3,4}/arch{2,3}
+  688  tree
+  689  touch folder1/folder2/arch3/file1.conf
+  690  touch folder1/folder4/arch2/file1.conf
+  691  touch folder1/folder2/arch3/file2.conf
+  692  rm folder1/folder4/arch2/file1.conf
+  693  rm folder1/folder4/arch2/file3.conf
+  694  tree
+  695  touch folder1/folder3/file4.conf
+  696  tree
+  697  find . -name '*.conf'
+  698  find . -name '*.conf' | rev
+  699  find . -name '*.conf' | rev | cut -d\/ -f1 
+  700  find . -name '*.conf' | rev | cut -d\/ -f1  | rev
+  701  for i in `find . -name '*.conf' | rev | cut -d\/ -f1  | rev`; do mkdir $i; done
+  702  ls
+  703  ls -l
+  704  history 
+  705  for i in `find . -name '*.conf' | rev | cut -d\/ -f1  | rev`; do
+  706  ifconfig 
+  707  seq 1 5
+  708  seq 1 2 10
+  709  seq 1 5
+  710  cd Documentos/
+  711  ls
+  712  cd LXS2_II-2017_evb/
+  713  ls
+  714  ls -la
+  715  cd src/
+  716  ls
+  717  git status 
+  718  vim chage-case.sh 
+  719  ls
+  720  ./parametros.sh mono gato perro
+  721  ls
+  722  vim get-gif.sh 
+  723  vim migracion.sh 
+  724  ls
+  725  git status 
+  726  git add parametros.sh get-gif.sh migracion.sh 
+  727  git commit -m "Agrego scripts de la clase de bash"
+  728  git push origin master 
+  729  ls
+  730  vim export_clients.sh 
+  731  cd /tmp/
+  732  mkdir algo/cosa
+  733  mkdir -p algo/cosa
+  734  tree algo/
+  735  cd -
+  736  ls
+  737  vim export_clients.sh 
+  738  ls
+  739  cat monitor.sh 
+  740  vim get-gif.sh 
+  741  sudo apt install mysql-server
+  742  netstat -latun
+  743  netstat -latu
+  744  netstat -latu | grep ESCU
+  745  sudo apt install nmap
+  746  ip -4 addr
+  747  nmap 10.124.18.36
+  748  sudo apt install openssh-server
+  749  nmap 10.124.18.36
+  750  nmap localhost
+  751  mysql -u root -p
+  752  dpkg --get-selections | grep mysql
+  753  sudo mysql_secure_installation 
+  754  mysql -u root -p
+  755  cd Documentos/
+  756  ls
+  757  cd LXS2_II-2017_evb/
+  758  cd history/
+  759  ls
+  760  cd Documentos/LXS2_II-2017_evb/
+  761  ls
+  762  cd history/
+  763  ls
+  764  history > history-clase2.txt
