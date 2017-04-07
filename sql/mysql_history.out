@@ -1,0 +1,48 @@
+CREATE DATABASE Work;
+USE Work;
+CREATE TABLE People (First text, Last text, PersonID int primary key);
+CREATE TABLE Projects (Project text, ProjectID CHAR (3) primary key);
+CREATE TABLE PeopleProjects (PersonID int, ProjectID CHAR (3), PRIMARY KEY (PersonID, ProjectID));
+SHOW TABLES;
+INSERT INTO People (First, Last, PersonID) VALUES
+("Susan", "Gomez", 1),
+("Hans", "Alvarez", 2);
+INSERT INTO Projects VALUES
+("Perl Introduction", "PE1"),
+("Perl Intermediate", "PE2"),
+("Python Introduction", "PY1"),
+("Python Intermediate", "PY2"),
+("Python Advanced", "PY3");
+INSERT INTO PeopleProjects (ProjectID, PersonID) VALUES
+("PE1", 1),
+("PE1", 2),
+("PY1", 1),
+("PY1", 2),
+("PY2", 2);
+UPDATE People SET Last="Alvarez" WHERE PersonID=1;
+show * from People;
+select * from People;
+UPDATE People SET Last="Gomez" WHERE PersonID=1;
+select * from People;
+SELECT Project, ProjectID FROM Projects;
+SELECT * FROM Projects WHERE ProjectID LIKE "PY%";
+SELECT * FROM Projects WHERE ProjectID NOT LIKE "PY%";
+SELECT People.PersonID, First, Last, ProjectID FROM People JOIN PeopleProjects ON People.PersonID=PeopleProjects.PersonID;
+SELECT People.PersonID, First, Last, Projects.ProjectID, Project FROM People JOIN PeopleProjects ON People.PersonID=PeopleProjects.PersonID JOIN Projects ON PeopleProjects.ProjectID=Projects.ProjectID;
+SELECT ProjectID FROM PeopleProjects;
+SELECT * FROM Projects WHERE ProjectID IN (SELECT ProjectID FROM PeopleProjects);
+SELECT * FROM Projects WHERE ProjectID NOT IN (SELECT ProjectID FROM PeopleProjects);
+INSERT into People VALUES ("Naomi", "Nguyen", 0);
+SELECT * FROM People;
+SELECT * FROM People ORDER BY First;
+SELECT * FROM People ORDER BY PersonID;
+SELECT * FROM People ORDER BY First ASC;
+SELECT * FROM People ORDER BY First DESC;
+ALTER TABLE Projects ADD Cost DECIMAL(12,2);
+SELECT * FROM Projects;
+UPDATE Projects SET Cost=1500.00 WHERE ProjectID Like "%1";
+UPDATE Projects SET Cost=2000.00 WHERE ProjectID Like "%2";
+SELECT * FROM Projects;
+SELECT People.PersonID, First, Last, AVG(Cost), SUM(Cost) FROM People JOIN PeopleProjects ON People.PersonID=PeopleProjects.PersonID JOIN Projects ON PeopleProjects.ProjectID=Projects.ProjectID GROUP BY People.PersonID;
+SELECT Projects.ProjectID, Project, AVG(Cost), SUM(Cost) FROM People JOIN PeopleProjects ON People.PersonID=PeopleProjects.PersonID JOIN Projects ON PeopleProjects.ProjectID=Projects.ProjectID GROUP BY Projects.ProjectID;
+SELECT AVG(Cost) AS Average, SUM(Cost) AS Total FROM People JOIN PeopleProjects ON People.PersonID=PeopleProjects.PersonID JOIN Projects ON PeopleProjects.ProjectID=Projects.ProjectID;
