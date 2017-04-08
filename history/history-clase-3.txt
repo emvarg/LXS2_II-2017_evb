@@ -1,0 +1,309 @@
+    1  rm .bash_history 
+    2  touch .bash_history
+    3  history 
+    4  ls
+    5  cat .mysql_history 
+    6  rm .mysql_history 
+    7  touch .mysql_history
+    8  history 
+    9  ls
+   10  cd Documentos/
+   11  ls
+   12  cd LXS2_II-2017_evb/
+   13  ls
+   14  git pull origin master
+   15  ls
+   16  cp sql/my.cnf ~/.my.cnf
+   17  history
+   18  cd /tmp/
+   19  ls
+   20  git clone https://github.com/emvarg/LXS2_II-2017_evb.git
+   21  ls
+   22  history 
+   23  cd Documentos/
+   24  ls
+   25  cd LXS2_II-2017_evb/
+   26  ls
+   27  cd s
+   28  cd sql/
+   29  ls
+   30  less mysql_history.out 
+   31  vim mysql_history.out 
+   32  ps aux | grep mysql
+   33  netstat latun
+   34  netstat latun | grep ESC
+   35  netstat latun | grep LIST
+   36  cd ..
+   37  ls
+   38  grep netstat history/*
+   39  netstat latu | grep ESC
+   40  netstat -latu | grep ESC
+   41  netstat -latun | grep ESC
+   42  vim ~/.my.cnf 
+   43  mysql
+   44  cat  ~/.my.cnf 
+   45  mysql -u root -p
+   46  mysql
+   47  history
+   48  ls
+   49  cd sql/
+   50  ls
+   51  less my.cnf 
+   52  ls
+   53  cat mysql_history.out 
+   54  cd 
+   55  cat /tmp/history.mysql 
+   56  cat /tmp/history.mysql | mysql
+   57  mysql
+   58  cat /tmp/history.mysql 
+   59  vim /tmp/history.mysql 
+   60  dmesg 
+   61  ls /dev/console 
+   62  crontab 
+   63  cron
+   64  sudo su -
+   65  who
+   66  crontab  -e
+   67  locate banner
+   68  man printerbanner 
+   69  printerbanner LOL
+   70  man printerbanner 
+   71  printerbanner -w 5LOL
+   72  printerbanner -w 5 LOL
+   73  printerbanner -w 100 LOL
+   74  printerbanner -w 50 LOL
+   75  printerbanner -w 10 LOL
+   76  printerbanner -w 20 LOL
+   77  crontab -e
+   78  locate banner
+   79  crontab -e
+   80  printerbanner -w 20 LOL > /dev/console 
+   81  sudo printerbanner -w 20 LOL > /dev/console 
+   82  crontab -e
+   83  apt-cache search  banner
+   84  dmesg 
+   85  less /var/log/auth.log
+   86  ls
+   87  crontab -e 
+   88  sudo su -
+   89  w
+   90  crontab -e 
+   91  ssh uk@lolo.emate.ucr.ac.cr
+   92  who
+   93  who
+   94  cat ~/.mysql_history 
+   95  sudo su -
+   96  ls
+   97  ls -la
+   98  ls -a
+   99  cd Documentos/
+  100  ls
+  101  cd LXS2_II-2017_evb/
+  102  ls
+  103  cd sql/
+  104  ls
+  105  less mysql_history.out 
+  106  vim  mysql_history.out 
+  107  crontab  -e
+  108  ls /tmp/
+  109  date
+  110  cat .bashrc 
+  111  date
+  112  mysql
+  113  cat .mysql_history 
+  114  man mysql
+  115  cat .mysql_history | sed 's/\040/ /g' 
+  116  cat .mysql_history | sed 's/\\040/ /g' 
+  117  cat .mysql_history | sed 's/\\040/ /g' > history.mysql
+  118  alias convertir="cat .mysql_history | sed 's/\\040/ /g' > history.mysql"
+  119  rm history.mysql 
+  120  convertir 
+  121  cat history.mysql 
+  122  alias convertir='cat .mysql_history | sed 's/\\040/ /g' > history.mysql'
+  123  alias convertir="cat .mysql_history | sed 's/\\040/ /g' > history.mysql"
+  124  convertir 
+  125  cat history.mysql 
+  126  cat .mysql_history | sed 's/\\040/ /g' > history.mysql
+  127  cat history.mysql 
+  128  alias convertir="cat .mysql_history | sed 's/\040/ /g' > history.mysql"
+  129  convertir
+  130  cat history.mysql 
+  131  alias convertir="cat .mysql_history | sed \'s/\\040/ /g\' > history.mysql"
+  132  cat history.mysql 
+  133  alias convertir="cat ~/.mysql_history | sed 's/\\040/ /g' > /tmp/history.mysql"
+  134  iconv .mysql_history 
+  135  iconv -t utf8 .mysql_history 
+  136  alias convertir="cat ~/.mysql_history | sed 's/\\\040/ /g' > /tmp/history.mysql"
+  137  convertir
+  138  cat /tmp/history.mysql 
+  139  alias q040="cat ~/.mysql_history | sed 's/\\\040/ /g' > /tmp/history.mysql"
+  140  echo 'alias q040="cat ~/.mysql_history | sed 's/\\\040/ /g' > /tmp/history.mysql"' >> ~/.bashrc 
+  141  cat ~/.bashrc
+  142  vim ~/.bashrc
+  143  q040 
+  144  cat /tmp/history.mysql 
+  145  vim /tmp/history.mysql 
+  146  mysql show databases
+  147  mysql
+  148  mysqldump Work > Work.mysql
+  149  vim Work.mysql
+  150  mysql
+  151  chfn 
+  152  sudo su -
+  153  finger user1
+  154  less /etc/passwd
+  155  less /etc/shadow
+  156  vim /etc/passwd
+  157  tail -f /etc/passwd
+  158  tail -f /etc/passwd | grep soporte
+  159  cat /etc/passwd | grep soporte
+  160  watch -n "cat /etc/passwd | grep soporte"
+  161  watch -n 1 "cat /etc/passwd | grep soporte"
+  162  watch -n 1 "cat /etc/passwd | grep user1"
+  163  su - usuario3
+  164  su - usuario2
+  165  su usuario2
+  166  sudo adduser usuario1
+  167  grep usuario /etc/passwd
+  168  ls ..
+  169  su - usuario1
+  170  sudo useradd usuario2
+  171  tail /etc/passwd
+  172  sudo tail /etc/shadow
+  173  sudo passwd usuario2 
+  174  tail /etc/passwd
+  175  sudo tail /etc/shadow
+  176  ls ..
+  177  sudo mkdir ../usuario2
+  178  ls -l ..
+  179  sudo chown usuario2:usuario2 -R ../usuario2
+  180  ls -l ..
+  181  cp /etc/skel/.* ../usuario2/
+  182  sudo cp /etc/skel/.* ../usuario2/
+  183  sudo cp -r /etc/skel/.* ../usuario2/
+  184  ls -l ../usuario2/ 
+  185  sudo rm -r ../usuario2/*
+  186  sudo cp -r /etc/skel/* ../usuario2/
+  187  ls -la ../usuario2/
+  188  sudo chown usuario2:usuario2 -R ../usuario2
+  189  ls -la ../usuario2/
+  190  cat /etc/passwd
+  191  sudo vim /etc/passwd
+  192  su - usuario2
+  193  sudo useradd -s /bin/bash -d /tmp/usuario3 -k /etc/skel-devs -m -g admins usuario3
+  194  sudo useradd -s /bin/bash -d /tmp/usuario3 -k /etc/skel-devs -m -g  usuario3
+  195  sudo useradd -s /bin/bash -d /tmp/usuario3 -k /etc/skel-devs -m   usuario3
+  196  ls /tmp/
+  197  ls /tmp/usuario3/ -a
+  198  su - usuario3
+  199  sudo passwd usuario3
+  200  su - usuario3
+  201  sudo passwd -e usuario3
+  202  su - usuario3
+  203  man passwd
+  204  sudo passwd -e usuario3
+  205  sudo passwd -e usuario2
+  206  su - usuario2
+  207  sudo vim /etc/passwd
+  208  sudo vim /etc/shadow
+  209  sudo passwd -l usuario2
+  210  cat /etc/shadow | grep usuario2
+  211  sudo cat /etc/shadow | grep usuario2
+  212  su - usuario2
+  213  sudo passwd usuario2
+  214  sudo cat /etc/shadow | grep usuario2
+  215  sudo passwd -l usuario2
+  216  sudo cat /etc/shadow | grep usuario2
+  217  su - usuario2
+  218  sudo passwd -u usuario2 
+  219  su - usuario2
+  220  sudo vim /etc/shadow
+  221  su - usuario2
+  222  sudo chage -W 3 usuario2 
+  223  su - usuario2
+  224  chage -l usuario2
+  225  sudo chage -l usuario2
+  226  chage -W 5 usuario2
+  227  sudo chage -W 5 usuario2
+  228  sudo chage -l usuario2
+  229  sudo usermod -a -G sudo usuario2
+  230  id usuario2
+  231  history | grep add
+  232  ls -l .mozilla/
+  233  tree .mozilla/
+  234  ls
+  235  ls -l
+  236  ls -a
+  237  sudo userdel usuario3 
+  238  cat /etc/passwd
+  239  cat /etc/shadow
+  240  sudo cat /etc/shadow
+  241  ls /tmp/
+  242  sudo userdel -r usuario2
+  243  ls ..
+  244  cat /etc/passwd
+  245  sudo cat /etc/shadow
+  246  sudo cat /etc/group
+  247  cat /etc/group
+  248  virsh
+  249  cat /etc/group
+  250  id
+  251  id profesor
+  252  groups 
+  253  id
+  254  cat /etc/group
+  255  /etc/pam.d/
+  256  cd /etc/pam.d/
+  257  ls
+  258  vim common-account 
+  259  vim common-session
+  260  cat common-session | grep -v "#" | less  
+  261  cat common-session | grep -v "#"
+  262  cd
+  263  locale
+  264  locale -a
+  265  vim /etc/default/locale 
+  266  locale charmap
+  267  locale
+  268  locale | grep LANG
+  269  locale | grep LANG\=
+  270  locale | grep LANG\= | cut -d. -f 2
+  271  locale charmap
+  272  cat /etc/timezone 
+  273  ls /usr/share/zoneinfo/
+  274  ls /usr/share/zoneinfo/America/
+  275  ls -l 
+  276  ls /usr/share/zoneinfo/America/ -ol
+  277  tzselect 
+  278  date
+  279  TZ='America/Los_Angeles'; export TZ
+  280  date
+  281  TZ='America/Costa_Rica'; export TZ
+  282  date
+  283  env TZ='America/Los_Angeles' date
+  284  date
+  285  cat /etc/localtime 
+  286  history 
+  287  exit
+  288  sudo su -
+  289  vim /etc/shadow
+  290  sudo vim /etc/shadow
+  291  cat /etc/passwd  | grep nologin
+  292  cat /etc/passwd  | grep nologin | cut -d: -f1
+  293  cat /etc/passwd  | grep sql
+  294  cat /etc/passwd  | grep false
+  295  cat /etc/passwd  | grep false | cut -d: -f1
+  296  ls
+  297  vim /etc/passwd
+  298  screen
+  299  cd Documentos/
+  300  \ls
+  301  ls
+  302  cd LXS2_II-2017_evb/
+  303  ks
+  304  ls
+  305  cd history/
+  306  ;s
+  307  history 
+  308  ls
+  309  history > history-clase-3.txt

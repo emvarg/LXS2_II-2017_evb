@@ -1,0 +1,15 @@
+soporte  tty7         :0               Sat Mar 18 07:56    gone - no logout
+reboot   system boot  4.4.0-66-generic Sat Mar 18 06:46   still running
+soporte  pts/1        10.124.18.229    Fri Mar 17 18:54 - 19:04  (00:10)
+soporte  pts/1        10.124.18.229    Fri Mar 17 18:36 - 18:47  (00:11)
+soporte  tty7         :0               Fri Mar 17 18:00 - down   (01:40)
+reboot   system boot  4.4.0-66-generic Fri Mar 17 11:57 - 19:40  (07:43)
+reboot   system boot  4.4.0-66-generic Sat Mar 11 06:46 - 17:18 (2+10:32)
+soporte  tty7         :0               Thu Mar  9 17:40 - crash (1+13:06)
+reboot   system boot  4.4.0-66-generic Thu Mar  9 17:38 - 17:18 (3+23:39)
+soporte  pts/18       :0               Wed Mar  8 17:33 - 17:33  (00:00)
+soporte  tty7         :0               Wed Mar  8 17:33 - crash (1+00:05)
+soporte  pts/18       :0               Wed Mar  8 17:31 - 17:32  (00:00)
+soporte  tty7         :0               Wed Mar  8 17:31 - 17:32  (00:01)
+
+wtmp begins Wed Mar  8 17:31:07 2017
