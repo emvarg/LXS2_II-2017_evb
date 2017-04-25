@@ -1,0 +1,483 @@
+adduser soporte
+gpasswd -a soporte sudo
+id -nG soporte
+id -nG profesor
+gpasswd -a soporte lpadmin
+gpasswd -a soporte dip
+gpasswd -a soporte plugdev
+gpasswd -a soporte adm
+gpasswd -a soporte sambashare
+clear
+claer
+clear
+adduser 
+useradd 
+clear
+ip address show
+clear
+vim /etc/ssh/ssh_config
+apt-get install openssh-server
+ls
+cd /var/lib/libvirt/
+ls
+cd images/
+ls
+mv /home/profesor/firewall.qcow2 .
+ls
+chown root:root firewall.qcow2 
+ls -l
+chmod 775 firewall.qcow2 
+ls -l
+exit 
+echo $UID
+exit
+echo 0 > /proc/sys/net/ipv4/ip_forward
+cat /proc/sys/net/ipv4/ip_forward
+echo 1 > /proc/sys/net/ipv4/ip_forward
+cat /proc/sys/net/ipv4/ip_forward
+cd /tmp/
+ls
+vim salida
+ls
+exit 
+addgroup -man 
+man addgroup 
+exit 
+cd mn
+cd /m
+dmesg 
+mount /dev/sdb1 /mnt
+mount -t ntfs /dev/sdb1 /mnt
+man mount 
+mount 
+dmesg 
+mount -t fuseblk /dev/sdb1 /mnt/
+ls /mnt/
+cd /mnt/
+ls
+cd openSUSE-Leap-42/
+ls
+cd suse/
+ls
+cd ..
+ls
+cd ..
+ls
+cd openSUSE-Leap-42/
+ls
+cd boot/
+ls
+cd ..
+ls
+find . -name 'etc'
+find . -name 'etc' -type d
+find . -name '*etc*' -type d
+cd .
+cd ..
+ls
+chroot openSUSE-Leap-42/ bash
+cd ..
+ls
+cd 
+umount /mnt 
+ls
+dmesg 
+mount /dev/sdb1 /mnt/
+cd /mnt/
+ls
+cd ..
+ls
+chroot mnt/ bash
+mount -o bind /proc/ /mnt/
+mount -o bind /sys /mnt/
+chroot /mnt/
+cd mnt/
+ls
+cd ..
+umount /mnt/
+umount /mnt 
+mount 
+umount /dev/sdb1 
+mount 
+umount /dev/sdb1 
+mount 
+dmesg 
+vim /boot/grub/grub.cfg 
+grep menuentry /boot/grub/grub.cfg
+vim /etc/default/grub 
+apt-get update 
+apt-get autoremove 
+vim /etc/default/grub 
+info -f grub -n 'Simple configuration'
+vim /etc/default/grub 
+info -f grub -n 'Simple configuration'
+grep menuentry /boot/grub/grub.cfg
+ls /boot/
+grep menuentry -n /boot/grub/grub.cfg
+vim /etc/default/grub 
+fdisk -l
+fdisk -l | less
+fdisk -l /dev/sda | less
+fdisk -l /dev/sda
+dmesg 
+fdisk -l /dev/sda
+fdisk -l /dev/*
+fdisk -l /dev/sda
+fdisk -l /dev/sdb
+cd /tmp/
+ls
+dd if=/dev/zero of=data00 bs=1M count=100
+ls -l
+ls -lh data00 
+file data00 
+hexdump -C data00
+fdisk  data00
+file data00 
+hexdump -C data00 | less 
+hexdump -C data00 
+fdisk  data00
+sfdisk -d data00
+sfdisk -d data00 > data00.disk
+fdisk  data00
+ls /boot/
+mkfs.ext4 data00
+hexdump -C data00
+hexdump -C data00 | less
+ls
+hexdump -C data00 | less
+ls
+mount data00 /mnt/
+cd /mnt/
+ls
+mkdir algo
+touch algo/otro
+tree
+cd ..
+mount 
+umount /mnt 
+mount 
+history 
+mount /tmp/data00 /mnt/
+cd mnt/
+ls
+cd algo/
+ls
+ls -l
+ifconfig > otro 
+ls -l
+cd /
+umount /mnt 
+hexdump -C /tmp/data00 | less 
+history 
+sync
+cd /tmp/l
+cd /tmp/
+ls
+mount 
+mkswap data00
+file .data0
+file .data00
+file data00
+hexdump -C /tmp/data00 | less 
+swapon -s
+swapon data00
+swapon -s
+chmod 600 data00
+swapon data00
+swapon -s
+dd if=/dev/zero of=data00 bs=1M count=100
+swapon data00
+swapon -s
+hexdump -C /tmp/data00 | less 
+mkswap data00
+swapon data00
+swapon -s
+swapoff data00
+swapon -s
+vim /etc/fstab 
+mount -a
+dmesg 
+vim /etc/fstab 
+mount -a
+mount 
+vim /etc/fstab 
+mount -a
+mount 
+man mount 
+mount -o remount
+umount /mnt 
+mount -a
+mount 
+cd /mnt/
+ls
+ls -la
+cd 
+vim /etc/fstab 
+blkid 
+vim /etc/fstab 
+e2label /tmp/data00
+e2label  casa /tmp/data00
+mount 
+umount /tmp/data00
+e2label /tmp/data00
+e2label /tmp/data00 casa
+e2label /tmp/data00
+vim /etc/fstab 
+ls /dev/
+mount | grep dev
+df -lh
+df -i
+df -iT
+cd /tmp/
+ls
+fdisk data00
+ls
+mkfs.ext4 data00
+swapon -s
+man mount 
+man mount | grep -E 'Mount options for'
+man mount | grep -E 'Mount options for|*quota' 
+man mount 
+cd /mnt/
+ls
+ls -l
+apt install quota quotatool 
+ll
+quotacheck -cug .
+ls -l
+tail /etc/fstab 
+cd ..
+ls
+ls -ld mnt/\
+ls -ld mnt/
+#usermod -a -G profesor user1
+id 
+id user1 
+ls mnt/
+ls mnt/ -l 
+edquota user1
+edquota -g profesor 
+cd mnt/
+ls
+ls -l
+edquota user1 
+edquota -g profesor 
+quotaon  .
+repquota .
+quotacheck .
+quotacheck -ug .
+repquota 
+repquota .
+quotacheck -ug .
+quotacheck .
+su - user1
+id user3
+cd /mnt/
+edquota user1 
+edquota -p user1 user3
+edquota user3 
+apt-cache show tree
+dpkg --get-selections | head 
+cd /etc/apt
+ls
+ls -l
+vim sources.list
+apt-cache search tre
+apt-cache search tree
+apt-cache search treeview
+#apt-get -y update && apt-get -y upgrade
+locate *.deb
+atp-cache clean
+apt-cache clean
+apt-get clean
+ls /var/cache/apt/archives/
+vim sources.list
+apt-cache show tree
+apt-get remove tree
+cd /mnt/
+ls
+ls -la
+quotacheck  . 
+quotacheck  -f . 
+repquota .
+ls -l
+tree
+su - user1
+edquota -g profesor 
+su - user1 
+repquota .
+edquota -g profesor 
+cd /tmp/
+ls
+tune2fs -l data00
+dumpe2fs data00
+dumpe2fs data00 | less 
+fsck -f data00
+mount 
+man
+man fsck
+e2fsck data00
+man fsck
+e2fsck data00
+ls
+cp data00 data00/orig
+cp data00 data00.orig
+dd if=data00 of=data00.bad bs=1M count=50
+ls
+ls -l
+e2fsck data00.bad 
+mount data00.bad /mnt/
+e2fsck data00.bad 
+history 
+dumpe2fs data00.bad | grep superblock
+dumpe2fs data00.bad | less 
+dumpe2fs data00.bad | grep superbloque
+dumpe2fs data00.bad | less 
+dumpe2fs data00.bad | grep Superbloque
+dumpe2fs data00.bad | less 
+e2fsck -b 8193 data00.bad 
+mount data00.bad /mnt/
+dmesg 
+dd if=/dev/zero of=pading bs=512 count=51200
+cat data00.bad pading > data00.recover
+ls -l data00.recover 
+ls -lh data00.recover 
+e2fsck -b 8193 data00.bad 
+fsck data00.bad
+fsck -f  data00.bad
+e2fsck  data00.bad
+mount data00.recover /mnt/
+dmesg 
+fdisk data00.recover
+vim /etc/fstab 
+mount 
+mount -o remount /mnt/
+dmesg 
+mount 
+mount -o remount /tmp/data00
+lsmod | grep quota
+modprobe quota_v2
+lsmod | grep quota
+mount -o remount /tmp/data00 /mnt/
+mount -a
+mount  /mnt/
+mount 
+ls -l 
+cd /mnt/
+ls
+ls -la
+cd ..
+ls -ld mnt/
+id profesor 
+ls -l
+vim /etc/fstab 
+mount -o remount /mnt/
+mount 
+history 
+mount 
+man mount 
+chown :profesor -R /mnt/
+ls -ld /mnt/
+chmod 770 -R mnt/
+ls -ld /mnt/
+startx
+init 6
+sysctl reboot
+systemctl reboot
+systemctl rebot
+systemctl reboot
+systemctl default
+journalctl -xb
+reboot
+cd /etc/
+vim fstab 
+reboot
+passwd profesor 
+mkfs.vfat /dev/sdb1 
+dmesg 
+mkfs.vfat /dev/sdb1 
+dmesg 
+sync
+fdisk -l
+fdisk /dev/sdb1 
+mkfs.ext4 /dev/sdb1 
+dmesg 
+exit 
+crontab 
+exit
+locate banner
+exit 
+chfn user1
+apt-get install finger
+finger user1
+exit 
+cd /etc/
+mkdir skel-devs
+cd skel-devs
+cp ../skel/* .
+dmesg > file1.txt
+ls -l
+ls -la
+cp -R  ../skel/* .
+ls -la
+cp -R  /etc/skel/* .
+ls -la
+cp -R  /etc/skel/.* .
+ls
+rm -r *
+ls
+ls -la
+rm .pwd.lock 
+ls
+dmesg > file1.txt
+ls -la
+history 
+ls -la
+cd ..
+ls
+rm -r skel-devs/
+cd /etc/
+mkdir skel-devs
+rm -r skel-devs/
+cp -r skel/ skel-devs
+cd skel-devs/
+ls
+ls- la
+ls -la
+dmesg > file1.txt
+history 
+vim /etc/passwd
+vim /etc/shadow
+vim /etc/passwd
+vim /etc/shadow
+passwd usuario3 
+cat /etc/passwd
+cat /etc/shadow
+history > history-clase-3.root.txt
+mv history-clase-3.root.txt /home/soporte/Documentos/LXS2_II-2017_evb/history/
+chown soporte:soporte /home/soporte/Documentos/LXS2_II-2017_evb/history/history-clase-3.root.txt 
+cd /var/log/
+ls
+tail syslog
+ls /var/spool/
+ls /var/spool/cron/
+cat  /var/spool/cron/crontabs/
+ls  /var/spool/cron/crontabs/
+ls  /var/spool/cron/crontabs/soporte 
+cat  /var/spool/cron/crontabs/soporte 
+ps aux | grep cron
+crontab -u soporte
+ls /home/
+crontab -u soporte -e
+systemctl reload cron
+systemctl reload crond
+cd 
+apt-get install cron
+ls /tmp/
+exit 
+cd /var/log/
+ls
+cat kern.log
+ls
+cat syslog
+exit 
