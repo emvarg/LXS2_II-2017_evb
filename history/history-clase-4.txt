@@ -1,0 +1,478 @@
+rm .bash_history 
+touch .bash_history
+history 
+ls
+cat .mysql_history 
+rm .mysql_history 
+touch .mysql_history
+history 
+ls
+cd Documentos/
+ls
+cd LXS2_II-2017_evb/
+ls
+git pull origin master
+ls
+cp sql/my.cnf ~/.my.cnf
+history
+cd /tmp/
+ls
+git clone https://github.com/emvarg/LXS2_II-2017_evb.git
+ls
+history 
+cd Documentos/
+ls
+cd LXS2_II-2017_evb/
+ls
+cd s
+cd sql/
+ls
+less mysql_history.out 
+vim mysql_history.out 
+ps aux | grep mysql
+netstat latun
+netstat latun | grep ESC
+netstat latun | grep LIST
+cd ..
+ls
+grep netstat history/*
+netstat latu | grep ESC
+netstat -latu | grep ESC
+netstat -latun | grep ESC
+vim ~/.my.cnf 
+mysql
+cat  ~/.my.cnf 
+mysql -u root -p
+mysql
+history
+ls
+cd sql/
+ls
+less my.cnf 
+ls
+cat mysql_history.out 
+cd 
+cat /tmp/history.mysql 
+cat /tmp/history.mysql | mysql
+mysql
+cat /tmp/history.mysql 
+vim /tmp/history.mysql 
+dmesg 
+ls /dev/console 
+crontab 
+cron
+sudo su -
+who
+crontab  -e
+locate banner
+man printerbanner 
+printerbanner LOL
+man printerbanner 
+printerbanner -w 5LOL
+printerbanner -w 5 LOL
+printerbanner -w 100 LOL
+printerbanner -w 50 LOL
+printerbanner -w 10 LOL
+printerbanner -w 20 LOL
+crontab -e
+locate banner
+crontab -e
+printerbanner -w 20 LOL > /dev/console 
+sudo printerbanner -w 20 LOL > /dev/console 
+crontab -e
+apt-cache search  banner
+dmesg 
+less /var/log/auth.log
+ls
+crontab -e 
+sudo su -
+w
+crontab -e 
+who
+who
+cat ~/.mysql_history 
+sudo su -
+ls
+ls -la
+ls -a
+cd Documentos/
+ls
+cd LXS2_II-2017_evb/
+ls
+cd sql/
+ls
+less mysql_history.out 
+vim  mysql_history.out 
+crontab  -e
+ls /tmp/
+date
+cat .bashrc 
+date
+mysql
+cat .mysql_history 
+man mysql
+cat .mysql_history | sed 's/\040/ /g' 
+cat .mysql_history | sed 's/\\040/ /g' 
+cat .mysql_history | sed 's/\\040/ /g' > history.mysql
+alias convertir="cat .mysql_history | sed 's/\\040/ /g' > history.mysql"
+rm history.mysql 
+convertir 
+cat history.mysql 
+alias convertir='cat .mysql_history | sed 's/\\040/ /g' > history.mysql'
+alias convertir="cat .mysql_history | sed 's/\\040/ /g' > history.mysql"
+convertir 
+cat history.mysql 
+cat .mysql_history | sed 's/\\040/ /g' > history.mysql
+cat history.mysql 
+alias convertir="cat .mysql_history | sed 's/\040/ /g' > history.mysql"
+convertir
+cat history.mysql 
+alias convertir="cat .mysql_history | sed \'s/\\040/ /g\' > history.mysql"
+cat history.mysql 
+alias convertir="cat ~/.mysql_history | sed 's/\\040/ /g' > /tmp/history.mysql"
+iconv .mysql_history 
+iconv -t utf8 .mysql_history 
+alias convertir="cat ~/.mysql_history | sed 's/\\\040/ /g' > /tmp/history.mysql"
+convertir
+cat /tmp/history.mysql 
+alias q040="cat ~/.mysql_history | sed 's/\\\040/ /g' > /tmp/history.mysql"
+echo 'alias q040="cat ~/.mysql_history | sed 's/\\\040/ /g' > /tmp/history.mysql"' >> ~/.bashrc 
+cat ~/.bashrc
+vim ~/.bashrc
+q040 
+cat /tmp/history.mysql 
+vim /tmp/history.mysql 
+mysql show databases
+mysql
+mysqldump Work > Work.mysql
+vim Work.mysql
+mysql
+chfn 
+sudo su -
+finger user1
+less /etc/passwd
+less /etc/shadow
+vim /etc/passwd
+tail -f /etc/passwd
+tail -f /etc/passwd | grep soporte
+cat /etc/passwd | grep soporte
+watch -n "cat /etc/passwd | grep soporte"
+watch -n 1 "cat /etc/passwd | grep soporte"
+watch -n 1 "cat /etc/passwd | grep user1"
+su - usuario3
+su - usuario2
+su usuario2
+sudo adduser usuario1
+grep usuario /etc/passwd
+ls ..
+su - usuario1
+sudo useradd usuario2
+tail /etc/passwd
+sudo tail /etc/shadow
+sudo passwd usuario2 
+tail /etc/passwd
+sudo tail /etc/shadow
+ls ..
+sudo mkdir ../usuario2
+ls -l ..
+sudo chown usuario2:usuario2 -R ../usuario2
+ls -l ..
+cp /etc/skel/.* ../usuario2/
+sudo cp /etc/skel/.* ../usuario2/
+sudo cp -r /etc/skel/.* ../usuario2/
+ls -l ../usuario2/ 
+sudo rm -r ../usuario2/*
+sudo cp -r /etc/skel/* ../usuario2/
+ls -la ../usuario2/
+sudo chown usuario2:usuario2 -R ../usuario2
+ls -la ../usuario2/
+cat /etc/passwd
+sudo vim /etc/passwd
+su - usuario2
+sudo useradd -s /bin/bash -d /tmp/usuario3 -k /etc/skel-devs -m -g admins usuario3
+sudo useradd -s /bin/bash -d /tmp/usuario3 -k /etc/skel-devs -m -g  usuario3
+sudo useradd -s /bin/bash -d /tmp/usuario3 -k /etc/skel-devs -m   usuario3
+ls /tmp/
+ls /tmp/usuario3/ -a
+su - usuario3
+sudo passwd usuario3
+su - usuario3
+sudo passwd -e usuario3
+su - usuario3
+man passwd
+sudo passwd -e usuario3
+sudo passwd -e usuario2
+su - usuario2
+sudo vim /etc/passwd
+sudo vim /etc/shadow
+sudo passwd -l usuario2
+cat /etc/shadow | grep usuario2
+sudo cat /etc/shadow | grep usuario2
+su - usuario2
+sudo passwd usuario2
+sudo cat /etc/shadow | grep usuario2
+sudo passwd -l usuario2
+sudo cat /etc/shadow | grep usuario2
+su - usuario2
+sudo passwd -u usuario2 
+su - usuario2
+sudo vim /etc/shadow
+su - usuario2
+sudo chage -W 3 usuario2 
+su - usuario2
+chage -l usuario2
+sudo chage -l usuario2
+chage -W 5 usuario2
+sudo chage -W 5 usuario2
+sudo chage -l usuario2
+sudo usermod -a -G sudo usuario2
+id usuario2
+history | grep add
+ls -l .mozilla/
+tree .mozilla/
+ls
+ls -l
+ls -a
+sudo userdel usuario3 
+cat /etc/passwd
+cat /etc/shadow
+sudo cat /etc/shadow
+ls /tmp/
+sudo userdel -r usuario2
+ls ..
+cat /etc/passwd
+sudo cat /etc/shadow
+sudo cat /etc/group
+cat /etc/group
+virsh
+cat /etc/group
+id
+id profesor
+groups 
+id
+cat /etc/group
+/etc/pam.d/
+cd /etc/pam.d/
+ls
+vim common-account 
+vim common-session
+cat common-session | grep -v "#" | less  
+cat common-session | grep -v "#"
+cd
+locale
+locale -a
+vim /etc/default/locale 
+locale charmap
+locale
+locale | grep LANG
+locale | grep LANG\=
+locale | grep LANG\= | cut -d. -f 2
+locale charmap
+cat /etc/timezone 
+ls /usr/share/zoneinfo/
+ls /usr/share/zoneinfo/America/
+ls -l 
+ls /usr/share/zoneinfo/America/ -ol
+tzselect 
+date
+TZ='America/Los_Angeles'; export TZ
+date
+TZ='America/Costa_Rica'; export TZ
+date
+env TZ='America/Los_Angeles' date
+date
+cat /etc/localtime 
+history 
+exit
+sudo su -
+vim /etc/shadow
+sudo vim /etc/shadow
+cat /etc/passwd  | grep nologin
+cat /etc/passwd  | grep nologin | cut -d: -f1
+cat /etc/passwd  | grep sql
+cat /etc/passwd  | grep false
+cat /etc/passwd  | grep false | cut -d: -f1
+ls
+vim /etc/passwd
+screen
+cp .mysql_history Documentos/LXS2_II-2017_evb/history/mysql_history
+cd Documentos/LXS2_II-2017_evb/
+ls
+git status
+git add *
+git status
+git commit -m "Clase 3" 
+git push origin master 
+cd Documentos/
+\ls
+ls
+cd LXS2_II-2017_evb/
+ks
+ls
+cd history/
+;s
+history 
+ls
+history > history-clase-3.txt
+sudo su -
+htop
+sudo apt-get install htop
+htop
+ls
+dmes
+dmesg 
+dmesg 
+ps aux | grep Xorg
+ip -4 addr 
+xcalc 
+grep X /etc/ssh/sshd_config 
+netstat -latunp
+netstat -latunp | grep ESCU
+netstat -latunp | grep ESCU | grep 22
+ps aux | grep ssh
+grep X /etc/ssh/sshd_config 
+vim /etc/ssh/sshd_config
+sudo systemctl reload sshd
+ip -4 addr 
+ls ..
+sudo passwd user1
+ssh -X user1@10.124.18.49
+ls ..
+sudo passwd user3
+sudo passwd usuario1 
+sudo apt-get install xfce4
+cat /etc/hosts
+locate xdm
+sudo updatedb
+locate xdm
+netstat -latunp | grep 22
+ssh -p 2222 sysadmin@localhost
+sudo apt-get install xdm
+cd /etc/X11/
+LS
+ls
+cat default-display-manager 
+which xdm
+sudo find / -name 'xdm' 
+ls
+cd 
+ssh -p 2222 sysadmin@localhost
+ssh -X estudiante@10.124.18.95 xcalc
+dmesg 
+crontab -e
+mkdir test
+ls
+ls test/
+dmesg > test/file1
+tree test/
+cd test/
+ls
+tree
+rm repo-del-profe/ -r 
+ls
+sudo rm -r repo-del-profe/
+crontab -l
+history 
+crontab -l
+ls /tmp/
+sud 
+sudo cat /var/log/auth.log
+crontab -l
+cronq
+ls /tmp/
+cat /var/mail/mail
+sudo cat /var/mail/mail
+ls /tmp/
+crontab -l
+ls /etc/cron.d
+ls /tmp/
+crontab -e
+pwd
+crontab -e
+ls /tmp/
+dmesg 
+echo LOL > /dev/pts/22 
+vim /etc/anacrontab 
+cat /var/spool/anacron/cron.weekly 
+sudo cat /var/spool/anacron/cron.weekly 
+sudo systemctl status atd
+apt-cache search atd
+sudo systemctl start atd
+which at
+sudo apt-get install atd
+sudo apt-get install at
+sudo systemctl start atd
+sudo systemctl status atd
+sudo su -
+crontab -e
+date
+ls /tmp/
+cd /tmp/
+ls
+tar -xzf test.tar.gz 
+ls
+cd home/
+ls
+cd soporte/
+l;s
+ls
+cd test/
+cd /tmp/
+tree home/
+cd /dev/
+ls
+find . -name mice
+sudo find . -name mice
+sudo cat input/mice 
+ssh -p 2222 sysadmin@localhost
+xwininfo 
+vim /tmp/algo
+xwininfo -events
+ssh -p 2222 sysadmin@localhost
+xwininfo -root
+w
+xwininfo -root
+xwininfo
+xdpyinfo 
+xdpyinfo | wc
+xdpyinfo | lesss
+xdpyinfo | less
+xdpyinfo | grep dimensions
+ssh -X -p 2222 sysadmin@localhost
+w
+who
+ps aux
+ps
+at + 2 min
+at now + 2 min
+date
+echo 'echo HOLA > /dev/pts/22' > loquesea
+at -f loquesea now + 2 min
+atq
+cat /etc/at.deny 
+sudo cat /etc/at.deny 
+top
+iotop 
+sudo iotop 
+man iotop 
+sudo iotop -d 5
+htop
+top
+ls /dev/rtc*
+ls /dev/rtc* -l
+sudo hwclock -r
+man hwclock 
+man darw
+man date
+sudo apt-get install ntp
+vim /etc/ntp.conf 
+grep -v '#'  /etc/ntp.conf
+ntpq  -p
+ntptrace 
+less /var/log/exim4/mainlog
+less /var/log/exim4/mainlog.1
+ls /var/log/exim4/
+ls /var/log/exim4/ -l
+dmesg 
+sudo su -
+crontab  -e

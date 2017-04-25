@@ -88,7 +88,6 @@
    88  sudo su -
    89  w
    90  crontab -e 
-   91  ssh uk@lolo.emate.ucr.ac.cr
    92  who
    93  who
    94  cat ~/.mysql_history 

@@ -590,8 +590,6 @@
   590  echo "Prueba de correo" | mail -s "Asunto del correo" uk3xd8@gmail.com
   591  less /var/log/exim4/mainlog 
   592  cat /var/log/exim4/mainlog 
-  593  ssh uk@lolo.emate.hcr
-  594  ssh uk@lolo.emate.ucr.ac.cr
   595  cd Documentos/
   596  ls
   597  cd LXS2_II-2017_evb/
@@ -677,7 +675,6 @@
   677  vim parametros.sh 
   678  ./parametros.sh ksk ksk hedhdj
   679  vim parametros.sh 
-  680  ssh uk@lolo.emate.ucr.ac.cr
   681  echo hola | rev
   682  cd /tmp/
   683  ls
