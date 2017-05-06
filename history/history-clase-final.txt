@@ -1,0 +1,194 @@
+    1  cat .bash_history 
+    2  rm .bash_history 
+    3  touch .bash_history
+    4  xcalc 
+    5  pstree
+    6  ip -4 addr 
+    7  su - user1
+    8  wich xdm
+    9  which xdm
+   10  head /etc/hosts
+   11  su - user1
+   12  sudo apt-get install x2go
+   13  sudo apt-get install x2goclient
+   14  sudo apt-get purge x2goclient
+   15  cat .bash_history 
+   16  ls
+   17  ps aux | grep xorg
+   18  which Xorg
+   19  ls -l /usr/bin/Xorg
+   20  locate Xorg
+   21  ls ..
+   22  su - user1 
+   23  netstat -latunp | grep ESCU
+   24  netstat -latunp | grep ESCU | grep 22
+   25  netstat -latup | grep ESCU
+   26  vim /etc/ssh/ssh_config 
+   27  vim /etc/ssh/sshd_config 
+   28  ps aux | grep x
+   29  ps aux | grep dm
+   30  pstree  | less 
+   31  sudo apt-get remove xdm
+   32  sudo apt-get install xdm
+   33  ssh -p 2222 sysadmin@localhost
+   34  ssh-copy-id -p 2222 sysadmin@localhost
+   35  ssh-keygen -t rsa
+   36  ssh-copy-id -p 2222 sysadmin@localhost
+   37  ssh -p 2222 sysadmin@localhost
+   38  ssh -X -p 2222 sysadmin@localhost
+   39  ssh -p 2222 sysadmin@localhost
+   40  xwininfo 
+   41  xwininfo -root
+   42  w
+   43  xwininfo -events
+   44  xdpyinfo 
+   45  xdpyinfo  | less 
+   46  sudo apt-get remove xdm
+   47  cd /usr/share/X11/xorg.conf.d/
+   48  ls
+   49  ls -l
+   50  ls /etc/rc2.d/
+   51  ls -l
+   52  cat * | less
+   53  vim 10-amdgpu.conf 
+   54  wc *
+   55  less 10-quirks.conf
+   56  systemctl status networking.service 
+   57  netstat -s
+   58  netstat -s  | less
+   59  netstat -rn
+   60  route -n
+   61  ip -4 addr
+   62  ifconfig 
+   63  netstat -i
+   64  sudo su -
+   65  netstat  -i
+   66  netstat  -ic
+   67  watch -n 1 netstat  -ic
+   68  watch -n 1 "netstat  -ic"
+   69  watch -n 1 "netstat  -i"
+   70  lscpi
+   71  lspci
+   72  lspci -k
+   73  lsmod | grep e1000e
+   74  lsmod  | less 
+   75  sudo ls
+   76  tail /var/log/auth.log
+   77  sl ..
+   78  ls ..
+   79  su - user1
+   80  mail
+   81  crontab -e
+   82  less /var/mail/soporte 
+   83  sudo su -
+   84  ip -4 addr 
+   85  sudo nmap -sT -sU localhost
+   86  ssh localhost 
+   87  cd /etc/network/
+   88  ls
+   89  ls -l
+   90  ls interfaces.d/
+   91  sudo su -
+   92  sudo ls
+   93  sudo visudo
+   94  id
+   95  sudo visudo
+   96  ps aux | grep chro
+   97  kill -9 3388
+   98  cd 
+   99  su - user1 -c "ls -la ~"
+  100  su - user1 -c "echo $UID"
+  101  su - user1 -c "id"
+  102  id
+  103  su - user1
+  104  su - user1 -c "echo $PWD"
+  105  su - user1 -c "echo $HOME"
+  106  sudo su -
+  107  sudo vipw
+  108  sudo vim /etc/shadow
+  109  nmap localhost
+  110  nmap 10.124.18.62
+  111  nmap -sT -sU nmap.org
+  112  sudo nmap -sT -sU nmap.org
+  113  ip -4 addr 
+  114  nmap -sP 10.124.18.0/24
+  115  sudo su -
+  116  nmap -sP 10.124.18.0/24
+  117  nmap -sP 10.124.18.0/24 | grep report
+  118  nmap -sP 10.124.18.0/24 | grep report | awk '{print $5 $6}'
+  119  nmap -sP 10.124.18.0/24 | grep report | awk '{print $5 $6}' > /tmp/hosts-activos
+  120  vim /tmp/hosts-activos
+  121  apt-cache search inetd
+  122  apt-cache search fail2ban
+  123  which sshd
+  124  ldd `which sshd`
+  125  ldd `which sshd` | grep libwrap
+  126  hexdump -C `which sshd`
+  127  hexdump -C `which sshd` | grep host
+  128  hexdump -C `which sshd` | grep host_access
+  129  hexdump -C `which sshd` | grep host_acces
+  130  hexdump -C `which sshd` | grep host
+  131  hexdump -C `which sshd` | less 
+  132  hexdump -C `which sshd` | grep hosts_access
+  133  htop
+  134  ps aux  | head
+  135  pstree | less
+  136  runlevel 
+  137  cd /etc/init.d/
+  138  ls
+  139  cd ../rc5.d/
+  140  ls
+  141  ls -l
+  142  /etc/init.d/ssh restart
+  143  service restart ssh
+  144  service restart sshd
+  145  sudo service restart sshd
+  146  sudo service ssh restart 
+  147  ls
+  148  ssh -v estudiante@10.124.18.77
+  149  cd 
+  150  ls
+  151  scp loquesea estudiante@10.124.18.77:/tmp
+  152  rm loquesea 
+  153  ssh estudiante@10.124.18.77 "ls -l /tmp"
+  154  scp estudiante@10.124.18.77:/tmp/loquesea .
+  155  cd .ssh/
+  156  ls
+  157  ls -0l
+  158  ls -l
+  159  cat authorized_keys 
+  160  screen
+  161  cat .ssh/known_hosts 
+  162  rm .ssh/id_rsa.pub 
+  163  rm .ssh/id_rsa
+  164  ssh-keygen -t rsa
+  165  cat .ssh/id_rsa
+  166  cat .ssh/id_rsa.pub 
+  167  history 
+  168  ssh-copy-id estudiante@10.124.18.77
+  169  ssh estudiante@10.124.18.77
+  170  ls .ssh/
+  171  ls .ssh/ -l
+  172  ssh -v estudiante@10.124.18.77
+  173  ls ..
+  174  sudo adduser estudiante
+  175  vim /etc/ssh/sshd_config 
+  176  nmap localhost
+  177  ls
+  178  cd Documentos/
+  179  ls
+  180  cd LXS2_II-2017_evb/
+  181  ls
+  182  git pull origin master
+  183  cd history/
+  184  ls
+  185  sh vi .bash_history
+  186  sh
+  187  history 
+  188  cd Documentos/
+  189  ls
+  190  cd LXS2_II-2017_evb/
+  191  ls
+  192  cd history/
+  193  ls
+  194  history > history-clase-final.txt

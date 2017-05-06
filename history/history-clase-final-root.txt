@@ -1,0 +1,518 @@
+    1  adduser soporte
+    2  gpasswd -a soporte sudo
+    3  id -nG soporte
+    4  id -nG profesor
+    5  gpasswd -a soporte lpadmin
+    6  gpasswd -a soporte dip
+    7  gpasswd -a soporte plugdev
+    8  gpasswd -a soporte adm
+    9  gpasswd -a soporte sambashare
+   10  clear
+   11  claer
+   12  clear
+   13  adduser 
+   14  useradd 
+   15  clear
+   16  ip address show
+   17  clear
+   18  vim /etc/ssh/ssh_config
+   19  apt-get install openssh-server
+   20  ls
+   21  cd /var/lib/libvirt/
+   22  ls
+   23  cd images/
+   24  ls
+   25  mv /home/profesor/firewall.qcow2 .
+   26  ls
+   27  chown root:root firewall.qcow2 
+   28  ls -l
+   29  chmod 775 firewall.qcow2 
+   30  ls -l
+   31  exit 
+   32  echo $UID
+   33  exit
+   34  echo 0 > /proc/sys/net/ipv4/ip_forward
+   35  cat /proc/sys/net/ipv4/ip_forward
+   36  echo 1 > /proc/sys/net/ipv4/ip_forward
+   37  cat /proc/sys/net/ipv4/ip_forward
+   38  cd /tmp/
+   39  ls
+   40  vim salida
+   41  ls
+   42  exit 
+   43  addgroup -man 
+   44  man addgroup 
+   45  exit 
+   46  cd mn
+   47  cd /m
+   48  dmesg 
+   49  mount /dev/sdb1 /mnt
+   50  mount -t ntfs /dev/sdb1 /mnt
+   51  man mount 
+   52  mount 
+   53  dmesg 
+   54  mount -t fuseblk /dev/sdb1 /mnt/
+   55  ls /mnt/
+   56  cd /mnt/
+   57  ls
+   58  cd openSUSE-Leap-42/
+   59  ls
+   60  cd suse/
+   61  ls
+   62  cd ..
+   63  ls
+   64  cd ..
+   65  ls
+   66  cd openSUSE-Leap-42/
+   67  ls
+   68  cd boot/
+   69  ls
+   70  cd ..
+   71  ls
+   72  find . -name 'etc'
+   73  find . -name 'etc' -type d
+   74  find . -name '*etc*' -type d
+   75  cd .
+   76  cd ..
+   77  ls
+   78  chroot openSUSE-Leap-42/ bash
+   79  cd ..
+   80  ls
+   81  cd 
+   82  umount /mnt 
+   83  ls
+   84  dmesg 
+   85  mount /dev/sdb1 /mnt/
+   86  cd /mnt/
+   87  ls
+   88  cd ..
+   89  ls
+   90  chroot mnt/ bash
+   91  mount -o bind /proc/ /mnt/
+   92  mount -o bind /sys /mnt/
+   93  chroot /mnt/
+   94  cd mnt/
+   95  ls
+   96  cd ..
+   97  umount /mnt/
+   98  umount /mnt 
+   99  mount 
+  100  umount /dev/sdb1 
+  101  mount 
+  102  umount /dev/sdb1 
+  103  mount 
+  104  dmesg 
+  105  vim /boot/grub/grub.cfg 
+  106  grep menuentry /boot/grub/grub.cfg
+  107  vim /etc/default/grub 
+  108  apt-get update 
+  109  apt-get autoremove 
+  110  vim /etc/default/grub 
+  111  info -f grub -n 'Simple configuration'
+  112  vim /etc/default/grub 
+  113  info -f grub -n 'Simple configuration'
+  114  grep menuentry /boot/grub/grub.cfg
+  115  ls /boot/
+  116  grep menuentry -n /boot/grub/grub.cfg
+  117  vim /etc/default/grub 
+  118  fdisk -l
+  119  fdisk -l | less
+  120  fdisk -l /dev/sda | less
+  121  fdisk -l /dev/sda
+  122  dmesg 
+  123  fdisk -l /dev/sda
+  124  fdisk -l /dev/*
+  125  fdisk -l /dev/sda
+  126  fdisk -l /dev/sdb
+  127  cd /tmp/
+  128  ls
+  129  dd if=/dev/zero of=data00 bs=1M count=100
+  130  ls -l
+  131  ls -lh data00 
+  132  file data00 
+  133  hexdump -C data00
+  134  fdisk  data00
+  135  file data00 
+  136  hexdump -C data00 | less 
+  137  hexdump -C data00 
+  138  fdisk  data00
+  139  sfdisk -d data00
+  140  sfdisk -d data00 > data00.disk
+  141  fdisk  data00
+  142  ls /boot/
+  143  mkfs.ext4 data00
+  144  hexdump -C data00
+  145  hexdump -C data00 | less
+  146  ls
+  147  hexdump -C data00 | less
+  148  ls
+  149  mount data00 /mnt/
+  150  cd /mnt/
+  151  ls
+  152  mkdir algo
+  153  touch algo/otro
+  154  tree
+  155  cd ..
+  156  mount 
+  157  umount /mnt 
+  158  mount 
+  159  history 
+  160  mount /tmp/data00 /mnt/
+  161  cd mnt/
+  162  ls
+  163  cd algo/
+  164  ls
+  165  ls -l
+  166  ifconfig > otro 
+  167  ls -l
+  168  cd /
+  169  umount /mnt 
+  170  hexdump -C /tmp/data00 | less 
+  171  history 
+  172  sync
+  173  cd /tmp/l
+  174  cd /tmp/
+  175  ls
+  176  mount 
+  177  mkswap data00
+  178  file .data0
+  179  file .data00
+  180  file data00
+  181  hexdump -C /tmp/data00 | less 
+  182  swapon -s
+  183  swapon data00
+  184  swapon -s
+  185  chmod 600 data00
+  186  swapon data00
+  187  swapon -s
+  188  dd if=/dev/zero of=data00 bs=1M count=100
+  189  swapon data00
+  190  swapon -s
+  191  hexdump -C /tmp/data00 | less 
+  192  mkswap data00
+  193  swapon data00
+  194  swapon -s
+  195  swapoff data00
+  196  swapon -s
+  197  vim /etc/fstab 
+  198  mount -a
+  199  dmesg 
+  200  vim /etc/fstab 
+  201  mount -a
+  202  mount 
+  203  vim /etc/fstab 
+  204  mount -a
+  205  mount 
+  206  man mount 
+  207  mount -o remount
+  208  umount /mnt 
+  209  mount -a
+  210  mount 
+  211  cd /mnt/
+  212  ls
+  213  ls -la
+  214  cd 
+  215  vim /etc/fstab 
+  216  blkid 
+  217  vim /etc/fstab 
+  218  e2label /tmp/data00
+  219  e2label  casa /tmp/data00
+  220  mount 
+  221  umount /tmp/data00
+  222  e2label /tmp/data00
+  223  e2label /tmp/data00 casa
+  224  e2label /tmp/data00
+  225  vim /etc/fstab 
+  226  ls /dev/
+  227  mount | grep dev
+  228  df -lh
+  229  df -i
+  230  df -iT
+  231  cd /tmp/
+  232  ls
+  233  fdisk data00
+  234  ls
+  235  mkfs.ext4 data00
+  236  swapon -s
+  237  man mount 
+  238  man mount | grep -E 'Mount options for'
+  239  man mount | grep -E 'Mount options for|*quota' 
+  240  man mount 
+  241  cd /mnt/
+  242  ls
+  243  ls -l
+  244  apt install quota quotatool 
+  245  ll
+  246  quotacheck -cug .
+  247  ls -l
+  248  tail /etc/fstab 
+  249  cd ..
+  250  ls
+  251  ls -ld mnt/\
+  252  ls -ld mnt/
+  253  #usermod -a -G profesor user1
+  254  id 
+  255  id user1 
+  256  ls mnt/
+  257  ls mnt/ -l 
+  258  edquota user1
+  259  edquota -g profesor 
+  260  cd mnt/
+  261  ls
+  262  ls -l
+  263  edquota user1 
+  264  edquota -g profesor 
+  265  quotaon  .
+  266  repquota .
+  267  quotacheck .
+  268  quotacheck -ug .
+  269  repquota 
+  270  repquota .
+  271  quotacheck -ug .
+  272  quotacheck .
+  273  su - user1
+  274  id user3
+  275  cd /mnt/
+  276  edquota user1 
+  277  edquota -p user1 user3
+  278  edquota user3 
+  279  apt-cache show tree
+  280  dpkg --get-selections | head 
+  281  cd /etc/apt
+  282  ls
+  283  ls -l
+  284  vim sources.list
+  285  apt-cache search tre
+  286  apt-cache search tree
+  287  apt-cache search treeview
+  288  #apt-get -y update && apt-get -y upgrade
+  289  locate *.deb
+  290  atp-cache clean
+  291  apt-cache clean
+  292  apt-get clean
+  293  ls /var/cache/apt/archives/
+  294  vim sources.list
+  295  apt-cache show tree
+  296  apt-get remove tree
+  297  cd /mnt/
+  298  ls
+  299  ls -la
+  300  quotacheck  . 
+  301  quotacheck  -f . 
+  302  repquota .
+  303  ls -l
+  304  tree
+  305  su - user1
+  306  edquota -g profesor 
+  307  su - user1 
+  308  repquota .
+  309  edquota -g profesor 
+  310  cd /tmp/
+  311  ls
+  312  tune2fs -l data00
+  313  dumpe2fs data00
+  314  dumpe2fs data00 | less 
+  315  fsck -f data00
+  316  mount 
+  317  man
+  318  man fsck
+  319  e2fsck data00
+  320  man fsck
+  321  e2fsck data00
+  322  ls
+  323  cp data00 data00/orig
+  324  cp data00 data00.orig
+  325  dd if=data00 of=data00.bad bs=1M count=50
+  326  ls
+  327  ls -l
+  328  e2fsck data00.bad 
+  329  mount data00.bad /mnt/
+  330  e2fsck data00.bad 
+  331  history 
+  332  dumpe2fs data00.bad | grep superblock
+  333  dumpe2fs data00.bad | less 
+  334  dumpe2fs data00.bad | grep superbloque
+  335  dumpe2fs data00.bad | less 
+  336  dumpe2fs data00.bad | grep Superbloque
+  337  dumpe2fs data00.bad | less 
+  338  e2fsck -b 8193 data00.bad 
+  339  mount data00.bad /mnt/
+  340  dmesg 
+  341  dd if=/dev/zero of=pading bs=512 count=51200
+  342  cat data00.bad pading > data00.recover
+  343  ls -l data00.recover 
+  344  ls -lh data00.recover 
+  345  e2fsck -b 8193 data00.bad 
+  346  fsck data00.bad
+  347  fsck -f  data00.bad
+  348  e2fsck  data00.bad
+  349  mount data00.recover /mnt/
+  350  dmesg 
+  351  fdisk data00.recover
+  352  vim /etc/fstab 
+  353  mount 
+  354  mount -o remount /mnt/
+  355  dmesg 
+  356  mount 
+  357  mount -o remount /tmp/data00
+  358  lsmod | grep quota
+  359  modprobe quota_v2
+  360  lsmod | grep quota
+  361  mount -o remount /tmp/data00 /mnt/
+  362  mount -a
+  363  mount  /mnt/
+  364  mount 
+  365  ls -l 
+  366  cd /mnt/
+  367  ls
+  368  ls -la
+  369  cd ..
+  370  ls -ld mnt/
+  371  id profesor 
+  372  ls -l
+  373  vim /etc/fstab 
+  374  mount -o remount /mnt/
+  375  mount 
+  376  history 
+  377  mount 
+  378  man mount 
+  379  chown :profesor -R /mnt/
+  380  ls -ld /mnt/
+  381  chmod 770 -R mnt/
+  382  ls -ld /mnt/
+  383  startx
+  384  init 6
+  385  sysctl reboot
+  386  systemctl reboot
+  387  systemctl rebot
+  388  systemctl reboot
+  389  systemctl default
+  390  journalctl -xb
+  391  reboot
+  392  cd /etc/
+  393  vim fstab 
+  394  reboot
+  395  passwd profesor 
+  396  mkfs.vfat /dev/sdb1 
+  397  dmesg 
+  398  mkfs.vfat /dev/sdb1 
+  399  dmesg 
+  400  sync
+  401  fdisk -l
+  402  fdisk /dev/sdb1 
+  403  mkfs.ext4 /dev/sdb1 
+  404  dmesg 
+  405  exit 
+  406  crontab 
+  407  exit
+  408  locate banner
+  409  exit 
+  410  chfn user1
+  411  apt-get install finger
+  412  finger user1
+  413  exit 
+  414  cd /etc/
+  415  mkdir skel-devs
+  416  cd skel-devs
+  417  cp ../skel/* .
+  418  dmesg > file1.txt
+  419  ls -l
+  420  ls -la
+  421  cp -R  ../skel/* .
+  422  ls -la
+  423  cp -R  /etc/skel/* .
+  424  ls -la
+  425  cp -R  /etc/skel/.* .
+  426  ls
+  427  rm -r *
+  428  ls
+  429  ls -la
+  430  rm .pwd.lock 
+  431  ls
+  432  dmesg > file1.txt
+  433  ls -la
+  434  history 
+  435  ls -la
+  436  cd ..
+  437  ls
+  438  rm -r skel-devs/
+  439  cd /etc/
+  440  mkdir skel-devs
+  441  rm -r skel-devs/
+  442  cp -r skel/ skel-devs
+  443  cd skel-devs/
+  444  ls
+  445  ls- la
+  446  ls -la
+  447  dmesg > file1.txt
+  448  history 
+  449  vim /etc/passwd
+  450  vim /etc/shadow
+  451  vim /etc/passwd
+  452  vim /etc/shadow
+  453  passwd usuario3 
+  454  cat /etc/passwd
+  455  cat /etc/shadow
+  456  history > history-clase-3.root.txt
+  457  mv history-clase-3.root.txt /home/soporte/Documentos/LXS2_II-2017_evb/history/
+  458  chown soporte:soporte /home/soporte/Documentos/LXS2_II-2017_evb/history/history-clase-3.root.txt 
+  459  cd /var/log/
+  460  ls
+  461  tail syslog
+  462  ls /var/spool/
+  463  ls /var/spool/cron/
+  464  cat  /var/spool/cron/crontabs/
+  465  ls  /var/spool/cron/crontabs/
+  466  ls  /var/spool/cron/crontabs/soporte 
+  467  cat  /var/spool/cron/crontabs/soporte 
+  468  ps aux | grep cron
+  469  crontab -u soporte
+  470  ls /home/
+  471  crontab -u soporte -e
+  472  systemctl reload cron
+  473  systemctl reload crond
+  474  cd 
+  475  apt-get install cron
+  476  ls /tmp/
+  477  exit 
+  478  cd /var/log/
+  479  ls
+  480  cat kern.log
+  481  ls
+  482  cat syslog
+  483  exit 
+  484  history | grep uk
+  485  vim .bash_history 
+  486  cp .bash_history /home/soporte/Documentos/LXS2_II-2017_evb/history/history-clase-4.root.txt 
+  487  ls
+  488  ls -la
+  489  chown soporte:soporte /home/soporte/Documentos/LXS2_II-2017_evb/history/history-clase-4.root.txt
+  490  iptables -L
+  491  iptables -LO
+  492  iptables -Lo
+  493  iptables -S
+  494  iptables -vL
+  495  find / -type f -perm -4000
+  496  find / -type f -perm -4000 -o -perm -2000 -ls  2> /dev/null
+  497  find / -type f -perm -4000 -a -perm -2000 -ls  2> /dev/null
+  498  visudo 
+  499  vim /etc/sudoers
+  500  tail /var/log/auth.log
+  501  grep "user NOT in sudoers" /var/log/auth.log
+  502  mail
+  503  su - user1
+  504  cat /etc/shadow
+  505  lsof -u soporte
+  506  lsof -u soporte | grep 22
+  507  lsof -u soporte | grep 22 | grep ssh
+  508  lsof -u soporte | grep 22 | grep proto
+  509  lsof -i | grep 22 | grep proto
+  510  lsof -i
+  511  lsof -i | grep ntp
+  512  lsof -i :25TCP
+  513  lsof -i :25 TCP
+  514  lsof -i :25
+  515  lsof -i :22
+  516  history 
+  517  history | grep uk
+  518  history > history-clase-final-root.txt
